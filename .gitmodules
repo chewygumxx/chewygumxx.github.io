@@ -1,0 +1,3 @@
+[submodule "hashmark"]
+	path = hashmark
+	url = https://github.com/chewygumxx/hashmark
