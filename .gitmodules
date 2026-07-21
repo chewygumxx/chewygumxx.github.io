@@ -1,3 +1,6 @@
 [submodule "hashmark"]
 	path = hashmark
-	url = https://github.com/chewygumxx/hashmark
+    # Apparently this must be HTTP, something something publically accessible.
+    # https://docs.github.com/en/pages/getting-started-with-github-pages/using-submodules-with-github-pages
+    # https://git-scm.com/book/en/v2/Git-Tools-Submodules
+    url  = https://github.com/chewygumxx/hashmark
