@@ -28,7 +28,7 @@
             "type": "string",
             "description": "URL of the schema this object conforms.",
             "format": "uri",
-            "examples": [ "https://cgxx.dev/ref/schema/metadata_textfile/v0.0.1/schema.json" ]
+            "examples": [ "https://cgxx.dev/ref/schema/textfile/v0.0.1/schema.json" ]
         },
         "desc": {
             "type": "string",
@@ -79,7 +79,7 @@
                         "description": "PGP public key file URL to encrypt file.",
                         "format": "uri",
                         "examples": [
-                            "https://cgxx.dev/ref/gpg/chewygumxx-public.pgp.asc",
+                            "https://cgxx.dev/ref/pgp/chewygumxx-public.pgp.asc",
                             "https://blog.probablyfine.co.uk/gpg.asc"
                         ]
                     }
