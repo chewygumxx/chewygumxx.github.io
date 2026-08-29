@@ -1,6 +1,12 @@
+# Apparently these must be HTTP, something something publically accessible.
+# https://docs.github.com/en/pages/getting-started-with-github-pages/using-submodules-with-github-pages
+# https://git-scm.com/book/en/v2/Git-Tools-Submodules
 [submodule "hashmark"]
 	path = hashmark
-    # Apparently this must be HTTP, something something publically accessible.
-    # https://docs.github.com/en/pages/getting-started-with-github-pages/using-submodules-with-github-pages
-    # https://git-scm.com/book/en/v2/Git-Tools-Submodules
     url  = https://github.com/chewygumxx/hashmark
+[submodule "schema"]
+    path = ref/schema
+    url  = https://github.com/chewygumxx/schema
+[submodule "pgp"]
+    path = ref/pgp
+    url  = https://github.com/chewygumxx/pgp
